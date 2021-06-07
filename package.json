@@ -1,0 +1,15 @@
+{
+  "name": "sailfish-template-analyzer",
+  "version": "1.0.0",
+  "description": "旗鱼前端模板语法解析工具",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "pub": "npm run build && npm publish"
+  },
+  "author": "yangbo",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.3.2"
+  }
+}
